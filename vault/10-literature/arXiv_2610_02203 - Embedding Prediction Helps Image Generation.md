@@ -1,0 +1,36 @@
+---
+aliases: ["Embedding Prediction Helps Image Generation"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.02203"
+url: "http://arxiv.org/abs/2610.02203v1"
+published: "2026-10-01T17:59:49Z"
+ingested: "2026-10-02T11:51:31Z"
+authors:
+  - "Sihan Xu"
+  - "Ji Xie"
+  - "Zilin Wang"
+  - "Hui Shen"
+  - "Stella X. Yu"
+---
+
+# Embedding Prediction Helps Image Generation
+
+## Abstract
+
+> In diffusion transformers, a class label or a text prompt is embedded once, and the same
+> condition is reused at every denoising step. We ask whether predicted embeddings can serve as
+> this condition instead. Next-Embedding Predictive Autoregression (NEPA) trains a Transformer to
+> predict the next continuous embedding in a sequence. In generation, the clean image follows the
+> noisy image, so its embeddings are the next embeddings after the condition and the noisy image.
+> We train a NEPA model to predict them all at once with Multi-Embedding Prediction, and in
+> Embedding Conditioned Generation, a DiT generator is conditioned on these predictions,
+> recomputed at every denoising step, so the conditioning signal adapts to the current noisy
+> state. Experiments on class-conditional ImageNet $256\times256$ study the condition of the
+> generator, the design of Multi-Embedding Prediction, and the scaling of both models. The NEPA
+> model adds a second network to every sampling step; with it, and combined with REPA, our final
+> model, NEPA-DiT-XL, reaches an FID of 1.32 using about a third of the training compute of REPA.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
