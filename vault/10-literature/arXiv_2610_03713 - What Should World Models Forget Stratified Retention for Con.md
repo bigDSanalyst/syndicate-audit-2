@@ -1,0 +1,38 @@
+---
+aliases: ["What Should World Models Forget? Stratified Retention for Continual Adaptation"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.03713"
+url: "http://arxiv.org/abs/2610.03713v1"
+published: "2026-10-02T17:58:14Z"
+ingested: "2026-10-05T13:34:05Z"
+authors:
+  - "Nishit Anand"
+  - "Ramani Duraiswami"
+  - "Dinesh Manocha"
+---
+
+# What Should World Models Forget? Stratified Retention for Continual Adaptation
+
+## Abstract
+
+> Continual learning treats degradation on previously seen data as evidence of failure, a
+> convention inherited from settings with a stationary prediction target, where a correct label
+> remains correct indefinitely. World models do not satisfy this condition. Their prediction
+> target is the environment, which changes, so knowledge that was accurate when acquired may later
+> become false, and discarding it is required behavior rather than a defect. Non-stationary ground
+> truth is well studied in the concept drift literature and in the temporal factuality of language
+> models, but has not been formulated for world models, which are distinctive in that they also
+> encode knowledge that must never be revised. We argue that continual world models require
+> retention stratified by invariance timescale, separating invariants such as physics and object
+> permanence, which must never be revised, from instance-level facts that should be revised as
+> soon as the environment changes. Standard forgetting metrics cannot distinguish a world model
+> that has correctly revised outdated knowledge from one that has suffered catastrophic
+> forgetting, and consequently rank a frozen model highest, while existing physical-reasoning
+> benchmarks evaluate only frozen checkpoints. We propose differential retention, which reports
+> invariant regression testing across the adaptation stream jointly with revision latency, without
+> aggregation.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+

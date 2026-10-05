@@ -1,0 +1,42 @@
+---
+aliases: ["MoSE3: Learning World-Space SE(3) at Every Pixel"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.03716"
+url: "http://arxiv.org/abs/2610.03716v1"
+published: "2026-10-02T17:58:52Z"
+ingested: "2026-10-05T13:34:05Z"
+authors:
+  - "Jiahuan Cheng"
+  - "Zhiyi Li"
+  - "Tian Xia"
+  - "Ruojin Cai"
+  - "Yilun Du"
+  - "Qianqian Wang"
+---
+
+# MoSE3: Learning World-Space SE(3) at Every Pixel
+
+## Abstract
+
+> Dense 3D point tracking has been a prominent paradigm for modeling motion in dynamic scenes, but
+> a point track is just a 3-DoF translation curve per pixel: it captures where pixels go, not the
+> rotation of the underlying part, nor which pixels move together as one body. We propose MoSE3,
+> the first feed-forward model that predicts dense SE(3) motion from monocular RGB video,
+> producing full 6-DoF rigid transforms at every pixel in world space. Per-pixel SE(3) motion
+> offers a richer view of how a scene moves: rotation, translation, and grouping all at once.
+> Directly predicting SE(3) is challenging: rotations lie on a curved manifold that is ill-suited
+> to Euclidean regression, and annotations for SE(3) are particularly difficult to acquire. To
+> address these challenges, MoSE3 predicts per-pixel SE(3) through two jointly learned
+> intermediates, 3D point tracks and rigidity embeddings, and recovers SE(3) by differentiably
+> fitting transforms within each soft rigid cluster, enabling end-to-end prediction and
+> supervision. To close the data gap, we introduce Art-Kubric, a large-scale synthetic dataset
+> with dense SE(3) and rigidity labels for articulated objects with rich physical interactions.
+> MoSE3 achieves state-of-the-art SE(3) estimation at pixel, part, and object levels on both rigid
+> and articulated benchmarks, and state-of-the-art average 3D point tracking accuracy across three
+> datasets, while showing strong generalization to real-world videos despite being trained solely
+> on synthetic motion data.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
