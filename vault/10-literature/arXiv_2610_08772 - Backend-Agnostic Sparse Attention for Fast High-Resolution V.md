@@ -1,0 +1,44 @@
+---
+aliases: ["Backend-Agnostic Sparse Attention for Fast High-Resolution Visual Generation"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.08772"
+url: "http://arxiv.org/abs/2610.08772v1"
+published: "2026-10-06T17:55:24Z"
+ingested: "2026-10-07T12:37:44Z"
+authors:
+  - "Liao Ma"
+  - "Jiayi Song"
+  - "Yunfeng Wu"
+  - "Songhua Liu"
+  - "Peilin Zhao"
+---
+
+# Backend-Agnostic Sparse Attention for Fast High-Resolution Visual Generation
+
+## Abstract
+
+> Diffusion Transformers (DiTs) have achieved strong performance in image and video generation,
+> but the quadratic complexity of full attention makes high-resolution generation computationally
+> expensive. Window attention offers an efficient alternative, yet existing methods face a
+> practical trade-off: partitioned window attention typically achieves computational efficiency
+> consistent with its theoretical complexity. However, isolated windows block cross-window
+> interaction, often introducing visible grid-like artifacts in the generated results. Fine-
+> grained sliding-window attention effectively restores interactions across neighboring windows
+> and improves visual quality. However, its irregular computation patterns create a substantial
+> gap between theoretical and practical speedups and require specialized kernels tailored to each
+> hardware backend. To tackle these challenges, we propose BASA, a backend-agnostic sparse
+> attention, which brings the best of both worlds: visual quality and practical acceleration.
+> Specifically, BASA replaces visual self-attention with shifted local-window attention. By
+> introducing a structured window-shifting scheme across DiT blocks, we allow tokens divided by
+> window boundaries in one layer to communicate in the following layers, thereby achieving global
+> information exchange and eliminating window-induced visual artifacts. Notably, our design
+> introduces no additional irregular operators or customized kernels, making it readily deployable
+> on existing attention backends and closing the gap between theoretical sparsity and practical
+> acceleration. Experiments demonstrate that BASA achieves measured speedups exceeding 90\% of the
+> theoretical estimates on FLUX and delivers a 4.52$\times$ attention speedup on Wan while
+> maintaining competitive generation quality.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+

@@ -1,0 +1,46 @@
+---
+aliases: ["PEARS: Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.08784"
+url: "http://arxiv.org/abs/2610.08784v1"
+published: "2026-10-06T17:59:03Z"
+ingested: "2026-10-07T12:37:44Z"
+authors:
+  - "Kun Song"
+  - "Yiming Wang"
+  - "Yilin Chen"
+  - "Tianyi Ding"
+  - "Jiaxin Tian"
+  - "Tianqi Gong"
+  - "Daolin Ma"
+  - "Jia Pan"
+---
+
+# PEARS: Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation
+
+## Abstract
+
+> Pretrained robotic policies can suffer substantial performance degradation under out-of-
+> distribution (OOD) conditions encountered during deployment, motivating post-training through
+> real-world interaction. However, reinforcement-learning (RL)-based post-training typically
+> requires substantial environment interactions, a burden that is especially significant in
+> manipulation, where each trial can be slow, costly, or destructive. Therefore, we present PEARS,
+> a physics-prior-guided hybrid RL framework for sample-efficient online adaptation of pretrained
+> policies with tactile feedback. After each episode, its physics-guided force reasoning (PFR)
+> module uses physical priors encoded in a vision-language model (VLM) to diagnose failures from
+> the visual outcome and tactile interaction history and update task-appropriate contact-force
+> bounds. A high-frequency hybrid force-position controller then enforces these bounds during
+> contact. Complementarily, tactile-conditioned diffusion steering reinforcement learning adjusts
+> the latent noise of the frozen flow-matching policy to correct errors in free-space motion and
+> contact timing without updating the base model. In simulation, PEARS improves success rates by
+> 12.4-37.4 percentage points over the strongest per-task baselines. PEARS also reduces the number
+> of interaction episodes required for a certain success threshold by up to 53.2% relative to the
+> fastest baseline. In real-world experiments, PEARS achieves success rates of 95% on Whiteboard
+> Erasing and 90% on Pipette Liquid Aspiration. These results show that combining the PFR module
+> with policy steering can accelerate adaptation while reducing costly interactions. The project
+> website is available at https://song-kun.github.io/pears.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+

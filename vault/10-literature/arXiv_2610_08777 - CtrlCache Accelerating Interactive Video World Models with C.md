@@ -1,0 +1,45 @@
+---
+aliases: ["CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.08777"
+url: "http://arxiv.org/abs/2610.08777v1"
+published: "2026-10-06T17:57:29Z"
+ingested: "2026-10-07T12:37:44Z"
+authors:
+  - "Shangye Song"
+  - "Dong Gong"
+  - "Hong Jia"
+  - "Yun Sing Koh"
+  - "Xinyu Zhang"
+---
+
+# CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching
+
+## Abstract
+
+> Interactive video world models need to generate each video chunk efficiently while responding
+> faithfully to user controls. Many systems use chunk-wise autoregressive generation with few-step
+> denoising, but each chunk still requires several costly denoising iterations. Training-free
+> caching can reduce this cost, yet existing policies make reuse decisions primarily from model-
+> internal denoising dynamics and do not explicitly account for control transitions. Actually,
+> interactive generation explicitly exposes a signal they do not use: the controls for a chunk
+> arrive before it is denoised, so a schedule derived from them costs no forward pass. To this
+> end, we analyze adjacent chunks under different control regimes and find that structural
+> similarity drops around action changes, while low-frequency structure remains more persistent
+> than high-frequency detail. Motivated by these observations, we propose CtrlCache, a training-
+> free control-aware caching framework that adapts computation to the current control sequence.
+> Specifically, the action-aware scheduling and refresh policy detects action changes across and
+> within chunks, and labels each chunk as initial, transition, turning, or steady state. At one
+> selected interior denoising step, initial and transition chunks retain full computation, while
+> turning and steady chunks reuse the transformer residual from the most recent fully computed
+> step in the same chunk. To exploit the persistence of low-frequency structure during steady
+> interaction, we further introduce a frequency-mixed history prior guidance that incorporates
+> complementary information from the preceding clean latent without an additional DiT forward
+> pass. Evaluated on Matrix-Game 2.0 and LingBot-World v1/v2, CtrlCache achieves 1.21x to 1.41x
+> DiT-backbone speedups without model retraining while improving WBench Overall scores over
+> original inference across all three models.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+

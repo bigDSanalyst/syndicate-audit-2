@@ -1,0 +1,43 @@
+---
+aliases: ["QF3: Fast Flow RL with Filtered Q-Gradients"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.08789"
+url: "http://arxiv.org/abs/2610.08789v1"
+published: "2026-10-06T17:59:34Z"
+ingested: "2026-10-07T12:37:44Z"
+authors:
+  - "Chung Min Kim"
+  - "Brent Yi"
+  - "David McAllister"
+  - "Hongsuk Choi"
+  - "Himanshu Gaurav Singh"
+  - "Jinkun Cao"
+  - "Ken Goldberg"
+  - "Pieter Abbeel"
+  - "Carmelo Sferrazza"
+  - "Angjoo Kanazawa"
+---
+
+# QF3: Fast Flow RL with Filtered Q-Gradients
+
+## Abstract
+
+> Flow policies have become a standard policy class for learning robot behaviors from
+> demonstrations, but reinforcement learning is still critical for improving pre-trained flow
+> policies or learning them from scratch through interaction. We introduce QF3 (Fast Flow RL with
+> Filtered Q-Gradients), an online off-policy RL algorithm that trains a flow policy with flow
+> matching plus the critic's action gradient, backpropagated through a one-step prediction of the
+> flow's output. To keep updates where the critic and this prediction are reliable, QF3 applies
+> the critic gradient only to action dimensions that stay near the replay action. To our
+> knowledge, QF3 is the first off-policy flow RL method to train humanoid locomotion policies from
+> scratch and transfer them zero-shot to hardware. Paired with a high-throughput off-policy
+> training recipe, it trains humanoid locomotion and motion-tracking policies with a 10x wall-
+> clock speedup over FPO++, a recent on-policy flow RL method. We further apply QF3 to fine-tune
+> pretrained flow-based manipulation policies on both ABC-Sim and Robomimic tasks. These results
+> suggest that QF3 can both learn robot policies from scratch and refine those acquired from
+> demonstrations. Website: https://qf3-rl.github.io/
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
