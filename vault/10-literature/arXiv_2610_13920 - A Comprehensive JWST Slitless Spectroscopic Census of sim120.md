@@ -1,0 +1,48 @@
+---
+aliases: ["A Comprehensive JWST Slitless Spectroscopic Census of $\\sim$12,000 Emission-Line Galaxies at Redshift $0\\sim9$ in COSMOS"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.13920"
+url: "http://arxiv.org/abs/2610.13920v1"
+published: "2026-10-09T17:53:18Z"
+ingested: "2026-10-12T14:23:25Z"
+authors:
+  - "Shuqi Fu"
+  - "Zijian Zhang"
+  - "Danyang Jiang"
+  - "Jie Chen"
+  - "Linhua Jiang"
+  - "Chenxi Bao"
+  - "Yihe Wang"
+  - "Ronaldo Laishram"
+---
+
+# A Comprehensive JWST Slitless Spectroscopic Census of $\sim$12,000 Emission-Line Galaxies at Redshift $0\sim9$ in COSMOS
+
+## Abstract
+
+> Emission-line galaxies provide key diagnostics of star formation, chemical enrichment, and AGN
+> activity across cosmic time. We present a systematic census of emission-line sources using
+> JWST/NIRCam wide-field slitless spectroscopy (WFSS) from the COSMOS-3D program, which covers a
+> large contiguous area of 0.33 deg$^2$ and provides F444W grism spectroscopy over $3.9$--$5.1\
+> μ$m. By combining slitless spectroscopy with deep multi-band imaging data, we construct a
+> homogeneous spectroscopic sample of 12,275 objects at redshift 0--9. The typical $3σ$ line-flux
+> limit reaches $3.2\times10^{-18}\ {\rm erg\ s^{-1}\ cm^{-2}}$. To address source confusion
+> inherent to slitless spectroscopy, we develop a multi-step identification framework that
+> combines information from spectra, images, spectral energy distributions, and spatial
+> distributions. We introduce convolutional neural network and large language model to emulate the
+> human identification process and improve efficiency. The resulting catalog provides
+> spectroscopic redshifts, emission-line measurements, and derived physical properties for all
+> sources. The F444W WFSS enables the detection of multiple emission lines, including primarily [O
+> III], H$α$, He I $\lambda10830$, [S III] $λ\lambda9531,9069$, Pa$β$, Pa$α$, Br$β$, PAH, Br$α$,
+> allowing a continuous census of galaxies across cosmic time. We construct composite spectra in
+> several redshift bins and detect a variety of faint spectral features that are difficult to
+> identify in individual spectra, including higher-order hydrogen recombination lines, CO
+> absorption bands, and [Fe II] lines. This catalog provides a key reference dataset for studies
+> of galaxy evolution and AGN activity, and demonstrates the power of WFSS for constructing large,
+> unbiased spectroscopic samples over wide areas. The full catalog will be publicly available
+> online upon publication.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
