@@ -1,0 +1,32 @@
+---
+aliases: ["Continuum Attention"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.20586"
+url: "http://arxiv.org/abs/2610.20586v1"
+published: "2026-10-14T17:57:40Z"
+ingested: "2026-10-15T10:50:18Z"
+authors:
+  - "Afshin Khadangi"
+---
+
+# Continuum Attention
+
+## Abstract
+
+> We introduce Continuum Attention (CA), a causal Transformer attention operator that replaces
+> discrete key and value lookup with integration over a continuous, piecewise linear memory curve.
+> Each query induces an exponential relevance density along the curve. Integrating the density and
+> interpolated values yields exact normalized attention from closed form exponential moments,
+> including half token boundary contributions. The gradients follow analytically from moments of
+> order at most two, enabling parallel GPU implementations while retaining quadratic sequence
+> complexity and the standard Transformer decoder. Compared with ordinary softmax and focal
+> attention, CA reduces mean validation negative log likelihood by 0.0200 and 0.0480 nats per
+> byte, respectively, winning all paired comparisons. An additional disjoint validation slice
+> yields a 0.0457 nats per byte advantage over the strongest selected softmax baseline, with a
+> paired 95% confidence interval. These findings motivate continuous integration as a promising
+> attention alternative while leaving larger scale generalization open.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
