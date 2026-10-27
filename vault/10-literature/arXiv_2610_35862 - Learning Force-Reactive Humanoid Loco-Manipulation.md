@@ -1,0 +1,42 @@
+---
+aliases: ["Learning Force-Reactive Humanoid Loco-Manipulation"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.35862"
+url: "http://arxiv.org/abs/2610.35862v1"
+published: "2026-10-26T17:59:11Z"
+ingested: "2026-10-27T11:35:02Z"
+authors:
+  - "Sihang Li"
+  - "Xiaofeng Guo"
+  - "Jinkun Cao"
+  - "Charlie Cheng"
+  - "Ruihan Yang"
+  - "Chen Feng"
+  - "Guanya Shi"
+  - "Haozhi Qi"
+---
+
+# Learning Force-Reactive Humanoid Loco-Manipulation
+
+## Abstract
+
+> Many everyday tasks require controlling contact force as well as motion. On a humanoid, this
+> force must often be coordinated across both hands and the whole body, and cannot be specified by
+> kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-
+> reactive humanoid loco-manipulation. We collect robot-free demonstrations using two force-
+> sensing UMI-style handheld grippers for hand motion and contact wrenches, and wearable trackers
+> for body motion. A force-reactive diffusion policy takes vision, proprioception, and measured
+> wrenches as input, then predicts actions and per-hand force commands. A hybrid compliance whole-
+> body controller with force tracking executes these commands while maintaining balance: an
+> integral of the force error measured by real force/torque (F/T) sensors lets each hand track
+> force accurately along the commanded direction and remain compliant along the others. In
+> simulation, the controller tracks per-hand force commands of varied magnitude and direction,
+> with little loss in whole-body motion accuracy. Across three contact-rich tasks on the robot,
+> the force-reactive policy succeeds in 80% of rollouts, compared with 26.7% for a position-only
+> policy trained on the same demonstrations and executed by the same controller. For more details,
+> please visit our website: https://louis-leee.github.io/FLoRe/.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
