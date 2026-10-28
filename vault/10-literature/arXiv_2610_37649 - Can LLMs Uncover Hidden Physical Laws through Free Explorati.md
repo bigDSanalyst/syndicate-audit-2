@@ -1,0 +1,36 @@
+---
+aliases: ["Can LLMs Uncover Hidden Physical Laws through Free Exploration?"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.37649"
+url: "http://arxiv.org/abs/2610.37649v1"
+published: "2026-10-27T17:57:00Z"
+ingested: "2026-10-28T12:05:19Z"
+authors:
+  - "Zhen Yang"
+  - "Wen Wang"
+  - "Xander Xu"
+  - "Ying-Cong Chen"
+---
+
+# Can LLMs Uncover Hidden Physical Laws through Free Exploration?
+
+## Abstract
+
+> Scientific discovery often begins with an unexpected observation that prompts a new research
+> question. In a world with altered physical laws, can large language models (LLMs) notice
+> unexpected behavior, such as heavier objects falling more slowly, and discover the law through
+> experiments without being told what to investigate? To evaluate this ability, we introduce
+> LongChang, an automated framework that creates simulated worlds with altered physics, where one
+> or more laws differ from ordinary physics. The evaluated LLMs act as explorers, manipulating
+> objects and building tools to investigate their own questions without research tasks or hints
+> about these laws. Separate LLM agents generate and review scenes, review tool designs, and
+> evaluate reports for correctness and experimental support using the altered physical laws and
+> exploration records. These records guide scene evolution for further exploration, allowing the
+> full cycle to run without human intervention. Among 12 LLMs, GPT-6-Astra achieves a discovery
+> rate of 16.7%, while the other 11 score 0%. The exploration records reveal uninvestigated
+> anomalies and only partial identification of the altered physical laws.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
