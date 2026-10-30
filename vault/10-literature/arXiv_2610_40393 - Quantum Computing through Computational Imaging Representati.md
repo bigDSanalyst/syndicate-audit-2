@@ -1,0 +1,43 @@
+---
+aliases: ["Quantum Computing through Computational Imaging: Representations, Measurement, and Inference"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.40393"
+url: "http://arxiv.org/abs/2610.40393v1"
+published: "2026-10-29T16:32:20Z"
+ingested: "2026-10-30T12:06:49Z"
+authors:
+  - "George Kourousias"
+  - "Sergio Carrato"
+  - "Roberto Pugliese"
+  - "Panagiotis Dimitrakis"
+  - "Alberto Carini"
+---
+
+# Quantum Computing through Computational Imaging: Representations, Measurement, and Inference
+
+## Abstract
+
+> An algebraic correspondence between an imaging model and a quantum state does not specify a
+> computational method: input access, measurement and decoding determine what can be returned.
+> This exposition develops four distinctions for computational-imaging and engineering readers. It
+> separates amplitude encodings of input values from encodings of complete candidate labelings,
+> explaining why amplitude storage does not provide full-array readout. Complex-field interference
+> motivates unknown-phase inference: complementary measurements resolve ambiguities that local
+> Fisher information alone does not detect. Reshaping joint amplitudes into a matrix connects
+> singular-value decomposition to pure-state entanglement, while distinguishing Schmidt rank from
+> conditions for efficient classical simulation. In a four-pixel segmentation, an objective
+> becomes a cost operator and a sampling circuit. One layer of the quantum approximate
+> optimization algorithm (QAOA) lowers mean energy from $1.675$ to $0.686$ relative to uniform
+> sampling, yet makes a nonoptimal labeling more probable than the optimum 0.484 versus 0.365.
+> Archived IBM and IQM measurements illustrate a separate six-variable local boundary decision.
+> Low-rank state reconstruction and selected quantum algorithms connect these distinctions to an
+> end-to-end resource account. The derivations and reproducible numerical references assume
+> complex linear algebra and probability, without prior quantum mechanics. The accompanying Seeing
+> Amplitudes browser laboratory supports interactive exploration; the article remains self-
+> contained and connects each representation to the estimate or decision it permits and the
+> resources that output requires.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
