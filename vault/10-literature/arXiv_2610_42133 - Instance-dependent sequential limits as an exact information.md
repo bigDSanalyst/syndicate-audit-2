@@ -1,0 +1,33 @@
+---
+aliases: ["Instance-dependent sequential limits as an exact information ledger"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2610.42133"
+url: "http://arxiv.org/abs/2610.42133v1"
+published: "2026-10-30T17:57:44Z"
+ingested: "2026-11-02T14:43:38Z"
+authors:
+  - "Akshay Balsubramani"
+---
+
+# Instance-dependent sequential limits as an exact information ledger
+
+## Abstract
+
+> Instance-dependent limits for bandit regret, sequential tests, best-arm identification and
+> Markov decision processes are proved by one chain. It runs from a divergence decomposition
+> through data processing to a statistic, a testing step that turns a class guarantee into a
+> requirement on the history, and optimization over alternatives and allocations. Only the first
+> step is an identity. This work writes the chain as an exact ledger. By the chain rule, data
+> processing loses exactly a conditional divergence, which vanishes for arms in natural
+> exponential families at the per-arm counts and reward sums. A one-parameter family of martingale
+> identities extends the decomposition to every tilt between two instances. The classical limits
+> follow by relaxations with named defects. All defects but the asymptotic step's can be computed
+> from an algorithm's own runs, the uniform quantification's only when the class guarantee is a
+> number. On seven published sources, from movie ratings to engine replacement, the ledger locates
+> the difference between standard algorithms and the classical limits. For identification among
+> trained models and for Wald's test the largest term is usually the uniform quantification's.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
