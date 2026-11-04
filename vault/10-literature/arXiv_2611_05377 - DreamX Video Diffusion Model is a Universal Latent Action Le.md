@@ -1,0 +1,45 @@
+---
+aliases: ["DreamX: Video Diffusion Model is a Universal Latent Action Learner"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2611.05377"
+url: "http://arxiv.org/abs/2611.05377v1"
+published: "2026-11-03T18:59:56Z"
+ingested: "2026-11-04T13:45:13Z"
+authors:
+  - "Jisoo Kim"
+  - "Chaehyun Kim"
+  - "Junsu Kim"
+  - "Jiho Park"
+  - "Seongchan Kim"
+  - "Eunbeen Hong"
+  - "Soowon Son"
+  - "Fu-En Yang"
+  - "Seungryong Kim"
+---
+
+# DreamX: Video Diffusion Model is a Universal Latent Action Learner
+
+## Abstract
+
+> Learning a universal action representation from video requires modeling dynamics that are
+> consistent across different executions of the same action yet invariant to changes in embodiment
+> and appearance. Existing latent action models infer actions from visual transitions, but their
+> representations often entangle the underlying action with irrelevant visual variations, limiting
+> transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion
+> model as a universal latent action learner. Our approach extracts compact latent actions from
+> the video model's rich spatiotemporal features, compressing each latent video frame by
+> $\boldsymbol{300\times}$ ($\boldsymbol{1{,}200 \rightarrow 4}$ tokens). In addition, by
+> leveraging the video model's generative prior, these latent actions capture action-relevant
+> dynamics disentangled from visual appearance. The resulting latent space serves as a shared
+> action interface across embodiments (human and robot), environments, and action
+> parameterizations. On LARY-Bench, DreamX achieves state-of-the-art performance among latent
+> action models. Moreover, actions encoded in one setting remain effective in another: the latent
+> space supports any-to-any video transfer and zero-shot action transfer across diverse
+> embodiments and environments. Furthermore, this shared interface also enables policy learning in
+> a compact latent action space, reducing the computational cost of video-diffusion-based
+> policies.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+

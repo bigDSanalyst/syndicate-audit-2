@@ -1,0 +1,41 @@
+---
+aliases: ["Adaptive Self-Optimization of Polarization Efficiency for Low-Power NV Center Thermometers Based on PAS-Q"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2611.04588"
+url: "http://arxiv.org/abs/2611.04588v1"
+published: "2026-11-03T09:43:37Z"
+ingested: "2026-11-04T13:45:10Z"
+authors:
+  - "Yifan Wang"
+  - "Li Xing"
+  - "Ruigang Wang"
+  - "Zheng Qian"
+---
+
+# Adaptive Self-Optimization of Polarization Efficiency for Low-Power NV Center Thermometers Based on PAS-Q
+
+## Abstract
+
+> Nitrogen-vacancy (NV) centers in diamond have attracted considerable attention for micro- and
+> nanoscale thermometry owing to their high precision and spatial resolution. However, achieving
+> sufficient electron spin polarization and signal-to-noise ratio (SNR) typically requires high-
+> power or long-duration laser excitation, which introduces heating and degrades measurement
+> accuracy and stability. To address this trade-off, a reinforcement learning (RL)-based approach
+> is proposed to optimize spin polarization under low-heating constraints. First, a physical model
+> integrating five-level optical pumping rates and NV spin polarization dynamics is established. A
+> temperature-rise constraint model is then developed based on pulsed optically detected magnetic
+> resonance (P-ODMR) measurements under varying laser powers and pulse widths in an external
+> magnetic field. Subsequently, a Progressive Action-Space Q-learning (PAS-Q) algorithm is
+> employed to explore the parameter space and identify optimal laser power and pulse-width
+> combinations. The agent is trained through numerical simulations and the resulting strategy is
+> implemented in a hardware system. Experimental results demonstrate a 44% reduction in laser-
+> induced heating, a 33% increase in spin polarization rate based on T1 relaxation analysis, and a
+> 71% reduction in optimization time compared with traditional methods. This approach enables
+> efficient spin polarization with reduced laser heating and improved optimization efficiency, and
+> may be extended to other heat-sensitive quantum spin sensors, including silicon-vacancy centers
+> in diamond and divacancy defects in silicon carbide.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
