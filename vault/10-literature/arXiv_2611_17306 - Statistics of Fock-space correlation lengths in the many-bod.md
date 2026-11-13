@@ -1,0 +1,35 @@
+---
+aliases: ["Statistics of Fock-space correlation lengths in the many-body localised phase"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2611.17306"
+url: "http://arxiv.org/abs/2611.17306v1"
+published: "2026-11-12T18:56:50Z"
+ingested: "2026-11-13T13:54:11Z"
+authors:
+  - "Bibek Saha"
+  - "David E. Logan"
+  - "Sthitadhi Roy"
+---
+
+# Statistics of Fock-space correlation lengths in the many-body localised phase
+
+## Abstract
+
+> The presence of long-ranged, many-body resonances in the many-body localised phase of disordered
+> quantum systems is manifest in strong inhomogeneities of eigenstate amplitudes on the Fock
+> space. We develop a quantitative, microscopic theory for this, centred on two-point Fock-space
+> correlation functions. Exact diagonalisation of the disordered tilted-field Ising chain uncovers
+> a stark contrast: typical correlations decay perfectly exponentially, whereas average
+> correlations exhibit subexponential decay with systematic system-size dependence driven by rare
+> resonant nodes. We show that this behaviour stems from an underlying distribution of Fock-space
+> correlation lengths with a variance that scales inversely with system size. Crucially, the
+> interplay of this distribution with the high-dimensional geometry of the hypercubic Fock-space
+> graph, leads to the qualitative difference between the typical and average behaviours. The
+> theory also allows us to derive the singularity spectrum of the many-body localised eigenstates,
+> and to establish theoretically the anomalous symmetry violation of quantum multifractality as an
+> inherent consequence of the Fock-space geometry.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
