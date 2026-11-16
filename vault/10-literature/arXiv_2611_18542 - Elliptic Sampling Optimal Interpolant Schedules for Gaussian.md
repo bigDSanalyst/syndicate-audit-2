@@ -1,0 +1,43 @@
+---
+aliases: ["Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2611.18542"
+url: "http://arxiv.org/abs/2611.18542v1"
+published: "2026-11-13T18:49:36Z"
+ingested: "2026-11-16T14:45:15Z"
+authors:
+  - "Cole Becker"
+  - "Taylan Kargin"
+  - "Kimia Hassibi"
+  - "Asuman Ozdaglar"
+  - "Pablo A. Parrilo"
+---
+
+# Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond
+
+## Abstract
+
+> Generative modeling based on stochastic interpolants requires specifying two key choices: an
+> interpolant schedule bridging the initial and target distributions, and an efficient
+> discretization of the resulting probability-flow ODE. In this work, we introduce a new framework
+> for joint schedule/discretization design based on the analyticity properties of the
+> (complexified) ODE trajectories, which in turn ensure good numerical behavior. Our formulation
+> can be solved exactly via conformal mapping, yielding a natural family of variance-preserving
+> elliptic schedules, parametrized by Jacobi elliptic functions. Pairing an elliptic schedule with
+> a tailored discretization, we obtain Zoloflow, a new sampling algorithm closely connected to
+> Zolotarev's optimal rational function approximants. Crucially, both the elliptic schedule and
+> Zoloflow explicitly incorporate the condition number $κ$ of the target distribution and reduce
+> to the classical trig schedule in the limit $κ\rightarrow 1$. For Gaussian targets, Zoloflow
+> achieves minimax optimality among all oblivious score-span algorithms, attaining total-variation
+> error $\varepsilon$ using $Θ(\logκ\,\log(\sqrt d/\varepsilon))$ (exact) score queries. For the
+> log-concave case, the elliptic schedule allows sampling with at most $\varepsilon$
+> 2-Wasserstein-error by requiring merely $\widetilde{O}(\sqrt{d} \, \mathrm{polylog}(κ,
+> 1/\varepsilon))$ score evaluations. Complementing these theoretical results, we empirically
+> evaluate the elliptic schedule on general (non-log-concave) target distributions, including
+> detailed comparisons with alternative schedule proposals on both synthetic benchmarks and
+> existing image generation datasets.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
