@@ -1,0 +1,40 @@
+---
+aliases: ["TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2611.26619"
+url: "http://arxiv.org/abs/2611.26619v1"
+published: "2026-11-19T18:58:31Z"
+ingested: "2026-11-20T14:52:15Z"
+authors:
+  - "Jinbin Luo"
+  - "Xiaozhe Yao"
+  - "Shang Yang"
+  - "Zhijian Liu"
+  - "Song Han"
+  - "Qinghao Hu"
+---
+
+# TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming
+
+## Abstract
+
+> Hybrid architectures have become mainstream among open-weight language models. Their global-
+> attention and bounded-state layers maintain heterogeneous caches whose demands vary with context
+> length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three
+> components for allocating GPU memory among caches and managing their residency across GPU and
+> host memory. The Transparent Cache Pool redistributes physical pages among cache components
+> behind fixed virtual addresses, preserving cache layouts and backend interfaces. The Cache
+> Streamer uses computation intervals provided by bounded-state layers to prefetch the next
+> global-attention layer's prefix into GPU slots shared across global-attention layers, reducing
+> GPU residency while overlapping layer-wise transfers with computation. Generated KV remains
+> resident. The Request Scheduler selects resident or streamed execution and triggers capacity
+> adjustments according to request size and queue state. Together, they let HBM released by
+> streaming accommodate other cache components and additional requests. Implemented in SGLang and
+> evaluated on GB300 and GH200 across seven model/platform configurations, TideCache completes up
+> to 2.04x as many agent turns, reduces overall P50 per-token latency by 20--59%, and improves
+> agent P50 TTFT by 1.40--3.05x compared with SGLang with HiCache.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
