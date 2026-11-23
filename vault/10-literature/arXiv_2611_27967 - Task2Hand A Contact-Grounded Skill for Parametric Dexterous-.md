@@ -1,0 +1,40 @@
+---
+aliases: ["Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Design"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2611.27967"
+url: "http://arxiv.org/abs/2611.27967v1"
+published: "2026-11-20T18:48:12Z"
+ingested: "2026-11-23T17:21:05Z"
+authors:
+  - "Haoyang Wang"
+  - "Weibo Gao"
+  - "Zhengxiong Li"
+  - "Lingfeng Tao"
+---
+
+# Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Design
+
+## Abstract
+
+> Dexterous hand design demands repeated expert work across geometry, robot-description code,
+> collision debugging, grasp initialization, and policy training. We present Task2Hand, a Skill: a
+> specification package that turns a functional manipulation brief into a parameterized hand model
+> and routes every candidate through cost-ordered contact, dynamics, and learning gates. Each gate
+> returns a status and an evidence record; on failure, the Skill records the earliest blocker,
+> revises one bounded parameter group, and reruns the cheaper gates. The agent generates,
+> validates, and trains autonomously within declared bounds, and escalates trade-offs, plateaus,
+> and conflicting evidence to a human who sets the next design direction. An evidence-driven
+> design trajectory for bidirectional in-hand manipulation yielded SAGE Hand (Skill-Aware
+> Generative Embodiment): four fingers, 16 actuated DoF, an integrated guiding palm, compact
+> roots, cylindrical tips, and a collision-cleared opposable thumb. Under a matched training
+> protocol, SAGE Hand reaches 45.6% task success on a hexagonal prism against 37.3% for the LEAP
+> hand, and 70.8% on a bicolor cylinder against 51.6%. Dense simulated tactile input more than
+> halves the cylinder drop rate. In a controlled iteration study, the Skill path preserves capture
+> at 164/165 trials while the path without the Skill degrades to 14/165, confirming that the gates
+> act as a regression guard during refinement. Accepted candidates pack with URDF/MJCF, metrics,
+> checkpoints, and a provenance manifest.
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
