@@ -1,0 +1,42 @@
+---
+aliases: ["Topological insulators on site-eliminated, projected, and patterned fractal lattices"]
+tags: [literature/arxiv, status/triage]
+arxiv_id: "2611.33155"
+url: "http://arxiv.org/abs/2611.33155v1"
+published: "2026-11-24T18:59:34Z"
+ingested: "2026-11-25T16:45:53Z"
+authors:
+  - "Aiden Mains"
+  - "Danile Salib"
+  - "Christopher Leong"
+  - "Bitan Roy"
+---
+
+# Topological insulators on site-eliminated, projected, and patterned fractal lattices
+
+## Abstract
+
+> Identifying fractal lattices of fractional (Hausdorff) dimension as geometric descendants of
+> parent crystals, we showcase the successful realization of canonical topological insulators in
+> one-, two-, and three-dimensional crystals on their self-similar descents using three
+> complementary approaches, starting from lattice-regularized models in integer dimensions. (a) In
+> the first approach, we construct the fractal Hamiltonian by removing all parent-lattice sites
+> that do not belong to such a network (method of site elimination). (b) In the second one, we
+> integrate or project out the same set of sites to obtain an effective Hamiltonian for the
+> fractal lattice (method of projection or renormalization). (c) In the third approach, we retain
+> the parent-crystal lattice intact but spatially pattern the on-site mass parameter, which
+> controls the topology of the parent insulating system, such that it assumes two topologically
+> distinct values on the fractal network and its complement (patterned fractal lattices). By
+> numerically diagonalizing the resulting Hamiltonians and computing appropriate topological
+> invariants or local markers, corroborating the bulk-boundary correspondence through gapless
+> modes at outer or inner boundaries, we establish Su-Schrieffer-Heeger topology on the Cantor set
+> using all three approaches, Haldane topology on the hexaflake [using (a) and (b)] and Qi-Wu-
+> Zhang topology on the Sierpiński carpet [using (c)], and strong $Z_2$ topological insulating
+> phases on the tiled Menger sponge from methods (a), (b), and (c). These findings complement and
+> substantially extend the previously reported realization of Qi-Wu-Zhang topology on the
+> Sierpiński carpet using methods (a) and (b) [Phys. Rev. B 110, L241302 (2024)].
+
+---
+## Reading Notes
+*Annotations below. Update the status tag as you triage; the arxiv_id frontmatter must survive edits - it is the dedup key.*
+
